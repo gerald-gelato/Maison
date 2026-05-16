@@ -15,12 +15,5 @@ const observer = new IntersectionObserver((entries) => {
       : 'linear-gradient(to bottom, rgba(15,14,12,0.95) 0%, transparent 100%)';
   });
 
-  var _smartsupp = _smartsupp || {};
-  _smartsupp.key = 'd3c8215c71cb6a22ac6d51e3b1748ad879f37b61';
-  window.smartsupp||(function(d) {
-    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-    c.type='text/javascript';c.charset='utf-8';c.async=true;
-    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-  })(document);
+  
   
