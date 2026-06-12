@@ -169,13 +169,6 @@
     .social-link:hover { border-color:var(--gold); color:var(--gold); }
     .social-link svg { width:16px; height:16px; stroke-width:1.5; }
 
-    /* WHATSAPP FIXED */
-    .wa-fixed { position:fixed; bottom:32px; right:32px; z-index:500; width:56px; height:56px; background:#25D366; border-radius:50%; display:flex; align-items:center; justify-content:center; text-decoration:none; box-shadow:0 4px 24px rgba(37,211,102,.35); transition:transform .3s, box-shadow .3s; animation:fadeUp 1s ease 2s both; }
-    .wa-fixed:hover { transform:scale(1.1); box-shadow:0 6px 32px rgba(37,211,102,.5); }
-    .wa-fixed svg { width:26px; height:26px; fill:white; }
-    .wa-fixed-pulse { position:absolute; inset:-4px; border-radius:50%; border:2px solid rgba(37,211,102,.4); animation:waPulse 2s ease infinite; }
-    @keyframes waPulse { 0%{transform:scale(1);opacity:.8;} 100%{transform:scale(1.5);opacity:0;} }
-
     /* FOOTER */
     footer { background:var(--deep); border-top:1px solid var(--border); padding:64px; }
     .footer-top { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:60px; margin-bottom:60px; }
